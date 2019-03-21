@@ -1,0 +1,1268 @@
+No.     Time                          Source                Destination           Protocol Length Info
+      1 2015-06-11 11:59:06.996843000 192.168.1.6           192.168.1.1           DNS      76     Standard query A go.microsoft.com
+
+Frame 1: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 64790 (64790), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      2 2015-06-11 11:59:07.012447000 192.168.1.6           192.168.1.1           DNS      76     Standard query A go.microsoft.com
+
+Frame 2: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 64790 (64790), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      3 2015-06-11 11:59:07.020993000 192.168.1.1           192.168.1.6           DNS      168    Standard query response CNAME go.microsoft.com.edgekey.net CNAME e11290.g.akamaiedge.net A 23.203.187.74
+
+Frame 3: 168 bytes on wire (1344 bits), 168 bytes captured (1344 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 64790 (64790)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      4 2015-06-11 11:59:07.153667000 192.168.1.6           192.168.1.1           DNS      90     Standard query A dmd.metaservices.microsoft.com
+
+Frame 4: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 55977 (55977), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      5 2015-06-11 11:59:07.169056000 192.168.1.6           192.168.1.1           DNS      90     Standard query A dmd.metaservices.microsoft.com
+
+Frame 5: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 55977 (55977), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      6 2015-06-11 11:59:07.185186000 192.168.1.1           192.168.1.6           DNS      193    Standard query response CNAME dmd.metaservices.microsoft.com.akadns.net A 65.55.54.41 A 65.55.54.43 A 65.55.54.42
+
+Frame 6: 193 bytes on wire (1544 bits), 193 bytes captured (1544 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 55977 (55977)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      7 2015-06-11 11:59:17.951617000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 7: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 53040 (53040), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      8 2015-06-11 11:59:17.967096000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 8: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 53040 (53040), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+      9 2015-06-11 11:59:17.989200000 192.168.1.1           192.168.1.6           DNS      240    Standard query response CNAME www.paypal.com.akadns.net CNAME ppdirect.paypal.com.akadns.net CNAME wlb.paypal.com.akadns.net CNAME www.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.13.82.234
+
+Frame 9: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 53040 (53040)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     10 2015-06-11 12:00:03.494947000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 10: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 63491 (63491), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     11 2015-06-11 12:00:03.510529000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 11: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 63491 (63491), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     12 2015-06-11 12:00:03.531754000 192.168.1.1           192.168.1.6           DNS      240    Standard query response CNAME www.paypal.com.akadns.net CNAME ppdirect.paypal.com.akadns.net CNAME wlb.paypal.com.akadns.net CNAME www.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.196.228.157
+
+Frame 12: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 63491 (63491)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     13 2015-06-11 12:00:04.244824000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 13: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 50476 (50476), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     14 2015-06-11 12:00:04.260426000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 14: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 50476 (50476), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     15 2015-06-11 12:00:04.272933000 192.168.1.1           192.168.1.6           DNS      220    Standard query response CNAME www.paypalobjects.com.akadns.net CNAME www.paypalobjects.com.edgekey.net CNAME e4517.g.akamaiedge.net A 23.203.56.135
+
+Frame 15: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 50476 (50476)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     16 2015-06-11 12:00:04.682300000 192.168.1.6           192.168.1.1           DNS      78     Standard query A b.stats.paypal.com
+
+Frame 16: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     17 2015-06-11 12:00:04.682300000 192.168.1.6           192.168.1.1           DNS      72     Standard query A c.paypal.com
+
+Frame 17: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61900 (61900), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     18 2015-06-11 12:00:04.682300000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 18: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61186 (61186), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     19 2015-06-11 12:00:04.697973000 192.168.1.6           192.168.1.1           DNS      78     Standard query A b.stats.paypal.com
+
+Frame 19: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     20 2015-06-11 12:00:04.697996000 192.168.1.6           192.168.1.1           DNS      72     Standard query A c.paypal.com
+
+Frame 20: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61900 (61900), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     21 2015-06-11 12:00:04.698111000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 21: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61186 (61186), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     22 2015-06-11 12:00:04.744784000 192.168.1.6           192.168.1.1           DNS      83     Standard query A paypal.d1.sc.omtrdc.net
+
+Frame 22: 83 bytes on wire (664 bits), 83 bytes captured (664 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 59036 (59036), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     23 2015-06-11 12:00:04.760567000 192.168.1.6           192.168.1.1           DNS      83     Standard query A paypal.d1.sc.omtrdc.net
+
+Frame 23: 83 bytes on wire (664 bits), 83 bytes captured (664 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 59036 (59036), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     24 2015-06-11 12:00:04.779337000 192.168.1.1           192.168.1.6           DNS      243    Standard query response A 66.235.139.228 A 66.235.138.198 A 66.235.138.197 A 66.235.138.199 A 66.235.139.1 A 66.235.139.2 A 66.235.139.209 A 66.235.139.210 A 66.235.139.211 A 66.235.139.227
+
+Frame 24: 243 bytes on wire (1944 bits), 243 bytes captured (1944 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 59036 (59036)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     25 2015-06-11 12:00:04.838749000 192.168.1.6           192.168.1.1           DNS      72     Standard query A t.paypal.com
+
+Frame 25: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 62898 (62898), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     26 2015-06-11 12:00:04.869812000 192.168.1.6           192.168.1.1           DNS      72     Standard query A t.paypal.com
+
+Frame 26: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 62898 (62898), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     27 2015-06-11 12:00:04.879176000 192.168.1.1           192.168.1.6           DNS      159    Standard query response CNAME t.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.13.82.234
+
+Frame 27: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 62898 (62898)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     28 2015-06-11 12:00:05.699145000 192.168.1.6           192.168.1.1           DNS      78     Standard query A b.stats.paypal.com
+
+Frame 28: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     29 2015-06-11 12:00:05.699145000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 29: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61186 (61186), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     30 2015-06-11 12:00:05.699147000 192.168.1.6           192.168.1.1           DNS      72     Standard query A c.paypal.com
+
+Frame 30: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61900 (61900), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     31 2015-06-11 12:00:07.699710000 192.168.1.6           192.168.1.1           DNS      78     Standard query A b.stats.paypal.com
+
+Frame 31: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     32 2015-06-11 12:00:07.699710000 192.168.1.6           192.168.1.1           DNS      72     Standard query A c.paypal.com
+
+Frame 32: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61900 (61900), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     33 2015-06-11 12:00:07.699711000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 33: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61186 (61186), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     34 2015-06-11 12:00:07.725916000 192.168.1.1           192.168.1.6           DNS      110    Standard query response A 173.0.82.206 A 66.211.161.244
+
+Frame 34: 110 bytes on wire (880 bits), 110 bytes captured (880 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 53709 (53709)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     35 2015-06-11 12:00:07.726354000 192.168.1.1           192.168.1.6           DNS      220    Standard query response CNAME www.paypalobjects.com.akadns.net CNAME www.paypalobjects.com.edgekey.net CNAME e4517.g.akamaiedge.net A 23.203.56.135
+
+Frame 35: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 61186 (61186)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     36 2015-06-11 12:00:07.726356000 192.168.1.1           192.168.1.6           DNS      159    Standard query response CNAME c.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.13.82.234
+
+Frame 36: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 61900 (61900)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     37 2015-06-11 12:00:08.011890000 192.168.1.6           192.168.1.1           DNS      80     Standard query A slc.stats.paypal.com
+
+Frame 37: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 60041 (60041), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     38 2015-06-11 12:00:08.027514000 192.168.1.6           192.168.1.1           DNS      80     Standard query A slc.stats.paypal.com
+
+Frame 38: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 60041 (60041), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     39 2015-06-11 12:00:08.038603000 192.168.1.1           192.168.1.6           DNS      96     Standard query response A 173.0.82.211
+
+Frame 39: 96 bytes on wire (768 bits), 96 bytes captured (768 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 60041 (60041)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     40 2015-06-11 12:00:10.684589000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 40: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 62108 (62108), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     41 2015-06-11 12:00:10.700189000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 41: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 62108 (62108), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     42 2015-06-11 12:00:10.724164000 192.168.1.1           192.168.1.6           DNS      240    Standard query response CNAME www.paypal.com.akadns.net CNAME ppdirect.paypal.com.akadns.net CNAME wlb.paypal.com.akadns.net CNAME www.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.196.228.157
+
+Frame 42: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 62108 (62108)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     43 2015-06-11 12:00:14.575794000 192.168.1.6           192.168.1.1           DNS      84     Standard query A paypalmanager.paypal.com
+
+Frame 43: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 62930 (62930), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     44 2015-06-11 12:00:14.591487000 192.168.1.6           192.168.1.1           DNS      84     Standard query A paypalmanager.paypal.com
+
+Frame 44: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 62930 (62930), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     45 2015-06-11 12:00:14.669139000 192.168.1.1           192.168.1.6           DNS      100    Standard query response A 173.0.82.164
+
+Frame 45: 100 bytes on wire (800 bits), 100 bytes captured (800 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 62930 (62930)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     46 2015-06-11 12:00:15.107285000 192.168.1.6           192.168.1.1           DNS      86     Standard query A evsecure-ocsp.verisign.com
+
+Frame 46: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 60604 (60604), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     47 2015-06-11 12:00:15.122887000 192.168.1.6           192.168.1.1           DNS      86     Standard query A evsecure-ocsp.verisign.com
+
+Frame 47: 86 bytes on wire (688 bits), 86 bytes captured (688 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 60604 (60604), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     48 2015-06-11 12:00:15.132767000 192.168.1.1           192.168.1.6           DNS      182    Standard query response CNAME ocsp.ws.symantec.com.edgekey.net CNAME e8218.ce.akamaiedge.net A 23.7.139.27
+
+Frame 48: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 60604 (60604)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     49 2015-06-11 12:00:19.389019000 192.168.1.6           192.168.1.1           DNS      84     Standard query A www.googleadservices.com
+
+Frame 49: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61602 (61602), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     50 2015-06-11 12:00:19.389019000 192.168.1.6           192.168.1.1           DNS      91     Standard query A secure.leadback.advertising.com
+
+Frame 50: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 65171 (65171), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     51 2015-06-11 12:00:19.389041000 192.168.1.6           192.168.1.1           DNS      79     Standard query A ad.yieldmanager.com
+
+Frame 51: 79 bytes on wire (632 bits), 79 bytes captured (632 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 53406 (53406), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     52 2015-06-11 12:00:19.404784000 192.168.1.6           192.168.1.1           DNS      84     Standard query A www.googleadservices.com
+
+Frame 52: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61602 (61602), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     53 2015-06-11 12:00:19.404785000 192.168.1.6           192.168.1.1           DNS      91     Standard query A secure.leadback.advertising.com
+
+Frame 53: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 65171 (65171), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     54 2015-06-11 12:00:19.404929000 192.168.1.6           192.168.1.1           DNS      79     Standard query A ad.yieldmanager.com
+
+Frame 54: 79 bytes on wire (632 bits), 79 bytes captured (632 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 53406 (53406), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     55 2015-06-11 12:00:19.458276000 192.168.1.1           192.168.1.6           DNS      191    Standard query response CNAME old-fd-world.ngd.gysm.yahoodns.net A 98.138.49.43 A 216.39.55.13 A 216.39.55.12 A 98.138.49.42
+
+Frame 55: 191 bytes on wire (1528 bits), 191 bytes captured (1528 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 53406 (53406)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     56 2015-06-11 12:00:19.458459000 192.168.1.1           192.168.1.6           DNS      169    Standard query response CNAME ns.leadback.ace.advertising.com.adcom.akadns.net A 152.163.13.6
+
+Frame 56: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 65171 (65171)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     57 2015-06-11 12:00:19.458641000 192.168.1.1           192.168.1.6           DNS      186    Standard query response CNAME pagead.l.doubleclick.net A 74.125.196.157 A 74.125.196.154 A 74.125.196.155 A 74.125.196.156
+
+Frame 57: 186 bytes on wire (1488 bits), 186 bytes captured (1488 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 61602 (61602)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     58 2015-06-11 12:00:19.498506000 192.168.1.6           192.168.1.1           DNS      78     Standard query A paypal.112.2o7.net
+
+Frame 58: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 57056 (57056), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     59 2015-06-11 12:00:19.514061000 192.168.1.6           192.168.1.1           DNS      78     Standard query A paypal.112.2o7.net
+
+Frame 59: 78 bytes on wire (624 bits), 78 bytes captured (624 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 57056 (57056), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     60 2015-06-11 12:00:19.539742000 192.168.1.1           192.168.1.6           DNS      238    Standard query response A 66.235.139.205 A 66.235.139.206 A 66.235.139.207 A 66.235.139.17 A 66.235.139.18 A 66.235.139.19 A 66.235.139.152 A 66.235.138.193 A 66.235.138.195 A 66.235.138.194
+
+Frame 60: 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 57056 (57056)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     61 2015-06-11 12:00:19.748415000 192.168.1.6           192.168.1.1           DNS      72     Standard query A sd.symcd.com
+
+Frame 61: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 52293 (52293), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     62 2015-06-11 12:00:19.763992000 192.168.1.6           192.168.1.1           DNS      72     Standard query A sd.symcd.com
+
+Frame 62: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 52293 (52293), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     63 2015-06-11 12:00:19.789228000 192.168.1.1           192.168.1.6           DNS      168    Standard query response CNAME ocsp.ws.symantec.com.edgekey.net CNAME e8218.ce.akamaiedge.net A 23.5.11.27
+
+Frame 63: 168 bytes on wire (1344 bits), 168 bytes captured (1344 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 52293 (52293)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     64 2015-06-11 12:00:19.904797000 192.168.1.6           192.168.1.1           DNS      77     Standard query A ocsp.digicert.com
+
+Frame 64: 77 bytes on wire (616 bits), 77 bytes captured (616 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61698 (61698), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     65 2015-06-11 12:00:19.920338000 192.168.1.6           192.168.1.1           DNS      77     Standard query A ocsp.digicert.com
+
+Frame 65: 77 bytes on wire (616 bits), 77 bytes captured (616 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61698 (61698), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     66 2015-06-11 12:00:19.948832000 192.168.1.1           192.168.1.6           DNS      125    Standard query response CNAME cs9.wac.phicdn.net A 72.21.91.29
+
+Frame 66: 125 bytes on wire (1000 bits), 125 bytes captured (1000 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 61698 (61698)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     67 2015-06-11 12:00:21.358241000 192.168.1.6           192.168.1.1           DNS      87     Standard query A googleads.g.doubleclick.net
+
+Frame 67: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61005 (61005), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     68 2015-06-11 12:00:21.374006000 192.168.1.6           192.168.1.1           DNS      87     Standard query A googleads.g.doubleclick.net
+
+Frame 68: 87 bytes on wire (696 bits), 87 bytes captured (696 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61005 (61005), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     69 2015-06-11 12:00:21.384104000 192.168.1.1           192.168.1.6           DNS      176    Standard query response CNAME pagead46.l.doubleclick.net A 74.125.137.155 A 74.125.137.156 A 74.125.137.157 A 74.125.137.154
+
+Frame 69: 176 bytes on wire (1408 bits), 176 bytes captured (1408 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 61005 (61005)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     70 2015-06-11 12:00:21.467658000 192.168.1.6           192.168.1.1           DNS      73     Standard query A ads.yahoo.com
+
+Frame 70: 73 bytes on wire (584 bits), 73 bytes captured (584 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 59527 (59527), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     71 2015-06-11 12:00:21.483237000 192.168.1.6           192.168.1.1           DNS      73     Standard query A ads.yahoo.com
+
+Frame 71: 73 bytes on wire (584 bits), 73 bytes captured (584 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 59527 (59527), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     72 2015-06-11 12:00:22.483249000 192.168.1.6           192.168.1.1           DNS      73     Standard query A ads.yahoo.com
+
+Frame 72: 73 bytes on wire (584 bits), 73 bytes captured (584 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 59527 (59527), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     73 2015-06-11 12:00:22.511795000 192.168.1.1           192.168.1.6           DNS      181    Standard query response CNAME fd-world.ngd.gysm.yahoodns.net A 98.138.49.42 A 216.39.55.12 A 216.39.55.13 A 98.138.49.43
+
+Frame 73: 181 bytes on wire (1448 bits), 181 bytes captured (1448 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 59527 (59527)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     74 2015-06-11 12:00:23.045875000 192.168.1.6           192.168.1.1           DNS      76     Standard query A ocsp.entrust.net
+
+Frame 74: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 58655 (58655), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     75 2015-06-11 12:00:23.076976000 192.168.1.6           192.168.1.1           DNS      76     Standard query A ocsp.entrust.net
+
+Frame 75: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 58655 (58655), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     76 2015-06-11 12:00:23.104137000 192.168.1.1           192.168.1.6           DNS      167    Standard query response CNAME ocsp.entrust.net.edgekey.net CNAME e6913.dscx.akamaiedge.net A 23.13.85.231
+
+Frame 76: 167 bytes on wire (1336 bits), 167 bytes captured (1336 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 58655 (58655)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     77 2015-06-11 12:00:24.952168000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.google.com
+
+Frame 77: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 52160 (52160), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     78 2015-06-11 12:00:24.967881000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.google.com
+
+Frame 78: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 52160 (52160), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     79 2015-06-11 12:00:24.978493000 192.168.1.1           192.168.1.6           DNS      170    Standard query response A 173.194.199.104 A 173.194.199.103 A 173.194.199.147 A 173.194.199.99 A 173.194.199.106 A 173.194.199.105
+
+Frame 79: 170 bytes on wire (1360 bits), 170 bytes captured (1360 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 52160 (52160)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     80 2015-06-11 12:00:29.391217000 192.168.1.6           192.168.1.1           DNS      82     Standard query A sp.analytics.yahoo.com
+
+Frame 80: 82 bytes on wire (656 bits), 82 bytes captured (656 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 60116 (60116), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     81 2015-06-11 12:00:29.417171000 192.168.1.1           192.168.1.6           DNS      145    Standard query response CNAME spdc-global.pbp.gysm.yahoodns.net A 67.195.33.91
+
+Frame 81: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 60116 (60116)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     82 2015-06-11 12:00:47.596995000 192.168.1.6           192.168.1.1           DNS      91     Standard query A settings-win.data.microsoft.com
+
+Frame 82: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 54831 (54831), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     83 2015-06-11 12:00:47.612455000 192.168.1.6           192.168.1.1           DNS      91     Standard query A settings-win.data.microsoft.com
+
+Frame 83: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 54831 (54831), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     84 2015-06-11 12:00:48.612524000 192.168.1.6           192.168.1.1           DNS      91     Standard query A settings-win.data.microsoft.com
+
+Frame 84: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 54831 (54831), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     85 2015-06-11 12:00:50.613012000 192.168.1.6           192.168.1.1           DNS      91     Standard query A settings-win.data.microsoft.com
+
+Frame 85: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 54831 (54831), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     86 2015-06-11 12:00:54.613528000 192.168.1.6           192.168.1.1           DNS      91     Standard query A settings-win.data.microsoft.com
+
+Frame 86: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 54831 (54831), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     87 2015-06-11 12:00:54.649287000 192.168.1.1           192.168.1.6           DNS      198    Standard query response CNAME settings.data.glbdns2.microsoft.com CNAME onesettings-cy2.metron.live.com.nsatc.net A 64.4.54.253
+
+Frame 87: 198 bytes on wire (1584 bits), 198 bytes captured (1584 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 54831 (54831)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     88 2015-06-11 12:01:06.381454000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 88: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 52791 (52791), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     89 2015-06-11 12:01:06.397235000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 89: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 52791 (52791), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     90 2015-06-11 12:01:06.424273000 192.168.1.1           192.168.1.6           DNS      240    Standard query response CNAME www.paypal.com.akadns.net CNAME ppdirect.paypal.com.akadns.net CNAME wlb.paypal.com.akadns.net CNAME www.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.196.228.157
+
+Frame 90: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 52791 (52791)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     91 2015-06-11 12:01:10.178936000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 91: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 57550 (57550), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     92 2015-06-11 12:01:10.194587000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 92: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 57550 (57550), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     93 2015-06-11 12:01:10.194589000 192.168.1.6           192.168.1.1           DNS      81     Standard query A altfarm.mediaplex.com
+
+Frame 93: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 56137 (56137), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     94 2015-06-11 12:01:10.210197000 192.168.1.6           192.168.1.1           DNS      81     Standard query A altfarm.mediaplex.com
+
+Frame 94: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 56137 (56137), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     95 2015-06-11 12:01:10.298898000 192.168.1.1           192.168.1.6           DNS      178    Standard query response CNAME ad.mediaplex.com CNAME adfarm.mplx.akadns.net CNAME adfarm-global.mplx.akadns.net A 64.156.167.77
+
+Frame 95: 178 bytes on wire (1424 bits), 178 bytes captured (1424 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 56137 (56137)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     96 2015-06-11 12:01:10.413257000 192.168.1.6           192.168.1.1           DNS      80     Standard query A ocsp2.globalsign.com
+
+Frame 96: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 58732 (58732), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     97 2015-06-11 12:01:10.428955000 192.168.1.6           192.168.1.1           DNS      80     Standard query A ocsp2.globalsign.com
+
+Frame 97: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 58732 (58732), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     98 2015-06-11 12:01:10.460046000 192.168.1.1           192.168.1.6           DNS      256    Standard query response A 108.162.232.200 A 108.162.232.205 A 108.162.232.199 A 108.162.232.198 A 108.162.232.201 A 108.162.232.196 A 108.162.232.207 A 108.162.232.203 A 108.162.232.202 A 108.162.232.197 A 108.162.232.204
+
+Frame 98: 256 bytes on wire (2048 bits), 256 bytes captured (2048 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 58732 (58732)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+     99 2015-06-11 12:01:11.195147000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 99: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 57550 (57550), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    100 2015-06-11 12:01:11.221030000 192.168.1.1           192.168.1.6           DNS      220    Standard query response CNAME www.paypalobjects.com.akadns.net CNAME www.paypalobjects.com.edgekey.net CNAME e4517.g.akamaiedge.net A 23.203.56.135
+
+Frame 100: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 57550 (57550)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    101 2015-06-11 12:01:12.460485000 192.168.1.6           192.168.1.1           DNS      80     Standard query A sjc-login.dotomi.com
+
+Frame 101: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 56469 (56469), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    102 2015-06-11 12:01:12.476115000 192.168.1.6           192.168.1.1           DNS      80     Standard query A sjc-login.dotomi.com
+
+Frame 102: 80 bytes on wire (640 bits), 80 bytes captured (640 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 56469 (56469), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    103 2015-06-11 12:01:12.501385000 192.168.1.1           192.168.1.6           DNS      175    Standard query response CNAME nsy-sjc.dotomi.weighted.com.akadns.net CNAME sjc02-usadmm.dotomi.com A 66.151.150.249
+
+Frame 103: 175 bytes on wire (1400 bits), 175 bytes captured (1400 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 56469 (56469)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    104 2015-06-11 12:01:16.960947000 192.168.1.6           192.168.1.1           DNS      83     Standard query A paypal.d1.sc.omtrdc.net
+
+Frame 104: 83 bytes on wire (664 bits), 83 bytes captured (664 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 49717 (49717), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    105 2015-06-11 12:01:16.976570000 192.168.1.6           192.168.1.1           DNS      83     Standard query A paypal.d1.sc.omtrdc.net
+
+Frame 105: 83 bytes on wire (664 bits), 83 bytes captured (664 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 49717 (49717), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    106 2015-06-11 12:01:16.997770000 192.168.1.1           192.168.1.6           DNS      243    Standard query response A 66.235.139.1 A 66.235.139.2 A 66.235.139.209 A 66.235.139.210 A 66.235.139.211 A 66.235.139.227 A 66.235.139.228 A 66.235.138.198 A 66.235.138.197 A 66.235.138.199
+
+Frame 106: 243 bytes on wire (1944 bits), 243 bytes captured (1944 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 49717 (49717)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    107 2015-06-11 12:01:17.539313000 192.168.1.6           192.168.1.1           DNS      72     Standard query A t.paypal.com
+
+Frame 107: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 58108 (58108), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    108 2015-06-11 12:01:17.554880000 192.168.1.6           192.168.1.1           DNS      72     Standard query A t.paypal.com
+
+Frame 108: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 58108 (58108), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    109 2015-06-11 12:01:17.567652000 192.168.1.1           192.168.1.6           DNS      159    Standard query response CNAME t.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.13.82.234
+
+Frame 109: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 58108 (58108)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    110 2015-06-11 12:01:19.508438000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 110: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 51038 (51038), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    111 2015-06-11 12:01:19.523981000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 111: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 51038 (51038), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    112 2015-06-11 12:01:20.524271000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 112: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 51038 (51038), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    113 2015-06-11 12:01:20.550341000 192.168.1.1           192.168.1.6           DNS      240    Standard query response CNAME www.paypal.com.akadns.net CNAME ppdirect.paypal.com.akadns.net CNAME wlb.paypal.com.akadns.net CNAME www.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.13.82.234
+
+Frame 113: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 51038 (51038)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    114 2015-06-11 12:01:51.604381000 192.168.1.6           192.168.1.1           DNS      91     Standard query A settings-win.data.microsoft.com
+
+Frame 114: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 64356 (64356), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    115 2015-06-11 12:01:51.619904000 192.168.1.6           192.168.1.1           DNS      91     Standard query A settings-win.data.microsoft.com
+
+Frame 115: 91 bytes on wire (728 bits), 91 bytes captured (728 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 64356 (64356), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    116 2015-06-11 12:01:51.645042000 192.168.1.1           192.168.1.6           DNS      198    Standard query response CNAME settings.data.glbdns2.microsoft.com CNAME onesettings-cy2.metron.live.com.nsatc.net A 64.4.54.253
+
+Frame 116: 198 bytes on wire (1584 bits), 198 bytes captured (1584 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 64356 (64356)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    117 2015-06-11 12:02:45.286465000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 117: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61948 (61948), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    118 2015-06-11 12:02:45.286466000 192.168.1.6           192.168.1.1           DNS      72     Standard query A t.paypal.com
+
+Frame 118: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 58578 (58578), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    119 2015-06-11 12:02:45.302255000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 119: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 52963 (52963), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    120 2015-06-11 12:02:45.302255000 192.168.1.6           192.168.1.1           DNS      81     Standard query A www.paypalobjects.com
+
+Frame 120: 81 bytes on wire (648 bits), 81 bytes captured (648 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 61948 (61948), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    121 2015-06-11 12:02:45.302255000 192.168.1.6           192.168.1.1           DNS      72     Standard query A t.paypal.com
+
+Frame 121: 72 bytes on wire (576 bits), 72 bytes captured (576 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 58578 (58578), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    122 2015-06-11 12:02:45.317777000 192.168.1.6           192.168.1.1           DNS      74     Standard query A www.paypal.com
+
+Frame 122: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 192.168.1.1 (192.168.1.1)
+User Datagram Protocol, Src Port: 52963 (52963), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    123 2015-06-11 12:02:45.378705000 192.168.1.1           192.168.1.6           DNS      220    Standard query response CNAME www.paypalobjects.com.akadns.net CNAME www.paypalobjects.com.edgekey.net CNAME e4517.g.akamaiedge.net A 23.213.19.100
+
+Frame 123: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 61948 (61948)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    124 2015-06-11 12:02:45.379346000 192.168.1.1           192.168.1.6           DNS      159    Standard query response CNAME t.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.13.82.234
+
+Frame 124: 159 bytes on wire (1272 bits), 159 bytes captured (1272 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 58578 (58578)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    125 2015-06-11 12:02:45.379348000 192.168.1.1           192.168.1.6           DNS      240    Standard query response CNAME www.paypal.com.akadns.net CNAME ppdirect.paypal.com.akadns.net CNAME wlb.paypal.com.akadns.net CNAME www.paypal.com.edgekey.net CNAME e6166.a.akamaiedge.net A 23.196.228.157
+
+Frame 125: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits)
+Ethernet II, Src: a0:63:91:2c:62:f8 (a0:63:91:2c:62:f8), Dst: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9)
+Internet Protocol Version 4, Src: 192.168.1.1 (192.168.1.1), Dst: 192.168.1.6 (192.168.1.6)
+User Datagram Protocol, Src Port: domain (53), Dst Port: 52963 (52963)
+Domain Name System (response)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    126 2015-06-11 12:03:37.701776000 fe80::6c92:6fd2:e171:8d64 ff02::1:3             LLMNR    84     Standard query AAAA wpad
+
+Frame 126: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv6mcast_00:01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::6c92:6fd2:e171:8d64 (fe80::6c92:6fd2:e171:8d64), Dst: ff02::1:3 (ff02::1:3)
+User Datagram Protocol, Src Port: 50354 (50354), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    127 2015-06-11 12:03:37.701779000 fe80::6c92:6fd2:e171:8d64 ff02::1:3             LLMNR    84     Standard query A wpad
+
+Frame 127: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv6mcast_00:01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::6c92:6fd2:e171:8d64 (fe80::6c92:6fd2:e171:8d64), Dst: ff02::1:3 (ff02::1:3)
+User Datagram Protocol, Src Port: 49728 (49728), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    128 2015-06-11 12:03:37.701933000 192.168.1.6           224.0.0.252           LLMNR    64     Standard query A wpad
+
+Frame 128: 64 bytes on wire (512 bits), 64 bytes captured (512 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv4mcast_00:00:fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 224.0.0.252 (224.0.0.252)
+User Datagram Protocol, Src Port: 49728 (49728), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    129 2015-06-11 12:03:37.701987000 192.168.1.6           224.0.0.252           LLMNR    64     Standard query AAAA wpad
+
+Frame 129: 64 bytes on wire (512 bits), 64 bytes captured (512 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv4mcast_00:00:fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 224.0.0.252 (224.0.0.252)
+User Datagram Protocol, Src Port: 50354 (50354), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    130 2015-06-11 12:03:38.108219000 fe80::6c92:6fd2:e171:8d64 ff02::1:3             LLMNR    84     Standard query A wpad
+
+Frame 130: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv6mcast_00:01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::6c92:6fd2:e171:8d64 (fe80::6c92:6fd2:e171:8d64), Dst: ff02::1:3 (ff02::1:3)
+User Datagram Protocol, Src Port: 49728 (49728), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    131 2015-06-11 12:03:38.108244000 fe80::6c92:6fd2:e171:8d64 ff02::1:3             LLMNR    84     Standard query AAAA wpad
+
+Frame 131: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv6mcast_00:01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::6c92:6fd2:e171:8d64 (fe80::6c92:6fd2:e171:8d64), Dst: ff02::1:3 (ff02::1:3)
+User Datagram Protocol, Src Port: 50354 (50354), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    132 2015-06-11 12:03:38.108541000 192.168.1.6           224.0.0.252           LLMNR    64     Standard query AAAA wpad
+
+Frame 132: 64 bytes on wire (512 bits), 64 bytes captured (512 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv4mcast_00:00:fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 224.0.0.252 (224.0.0.252)
+User Datagram Protocol, Src Port: 50354 (50354), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    133 2015-06-11 12:03:38.108674000 192.168.1.6           224.0.0.252           LLMNR    64     Standard query A wpad
+
+Frame 133: 64 bytes on wire (512 bits), 64 bytes captured (512 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv4mcast_00:00:fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 224.0.0.252 (224.0.0.252)
+User Datagram Protocol, Src Port: 49728 (49728), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    134 2015-06-11 12:03:39.030491000 fe80::6c92:6fd2:e171:8d64 ff02::1:3             LLMNR    84     Standard query AAAA wpad
+
+Frame 134: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv6mcast_00:01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::6c92:6fd2:e171:8d64 (fe80::6c92:6fd2:e171:8d64), Dst: ff02::1:3 (ff02::1:3)
+User Datagram Protocol, Src Port: 63304 (63304), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    135 2015-06-11 12:03:39.030573000 fe80::6c92:6fd2:e171:8d64 ff02::1:3             LLMNR    84     Standard query A wpad
+
+Frame 135: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv6mcast_00:01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::6c92:6fd2:e171:8d64 (fe80::6c92:6fd2:e171:8d64), Dst: ff02::1:3 (ff02::1:3)
+User Datagram Protocol, Src Port: 52940 (52940), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    136 2015-06-11 12:03:39.030681000 192.168.1.6           224.0.0.252           LLMNR    64     Standard query AAAA wpad
+
+Frame 136: 64 bytes on wire (512 bits), 64 bytes captured (512 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv4mcast_00:00:fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 224.0.0.252 (224.0.0.252)
+User Datagram Protocol, Src Port: 63304 (63304), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    137 2015-06-11 12:03:39.030819000 192.168.1.6           224.0.0.252           LLMNR    64     Standard query A wpad
+
+Frame 137: 64 bytes on wire (512 bits), 64 bytes captured (512 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv4mcast_00:00:fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 224.0.0.252 (224.0.0.252)
+User Datagram Protocol, Src Port: 52940 (52940), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    138 2015-06-11 12:03:39.436827000 fe80::6c92:6fd2:e171:8d64 ff02::1:3             LLMNR    84     Standard query AAAA wpad
+
+Frame 138: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv6mcast_00:01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::6c92:6fd2:e171:8d64 (fe80::6c92:6fd2:e171:8d64), Dst: ff02::1:3 (ff02::1:3)
+User Datagram Protocol, Src Port: 63304 (63304), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    139 2015-06-11 12:03:39.436827000 fe80::6c92:6fd2:e171:8d64 ff02::1:3             LLMNR    84     Standard query A wpad
+
+Frame 139: 84 bytes on wire (672 bits), 84 bytes captured (672 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv6mcast_00:01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::6c92:6fd2:e171:8d64 (fe80::6c92:6fd2:e171:8d64), Dst: ff02::1:3 (ff02::1:3)
+User Datagram Protocol, Src Port: 52940 (52940), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    140 2015-06-11 12:03:39.437166000 192.168.1.6           224.0.0.252           LLMNR    64     Standard query AAAA wpad
+
+Frame 140: 64 bytes on wire (512 bits), 64 bytes captured (512 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv4mcast_00:00:fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 224.0.0.252 (224.0.0.252)
+User Datagram Protocol, Src Port: 63304 (63304), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
+
+No.     Time                          Source                Destination           Protocol Length Info
+    141 2015-06-11 12:03:39.437344000 192.168.1.6           224.0.0.252           LLMNR    64     Standard query A wpad
+
+Frame 141: 64 bytes on wire (512 bits), 64 bytes captured (512 bits)
+Ethernet II, Src: 24:0a:64:ab:9b:f9 (24:0a:64:ab:9b:f9), Dst: IPv4mcast_00:00:fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 192.168.1.6 (192.168.1.6), Dst: 224.0.0.252 (224.0.0.252)
+User Datagram Protocol, Src Port: 52940 (52940), Dst Port: llmnr (5355)
+Link-local Multicast Name Resolution (query)
