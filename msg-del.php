@@ -9,7 +9,8 @@ try {
     die();
   }
 try{
-    $_query= $dbh->prepare("DELETE FROM messages WHERE msg_id = :id");
+    // $_query= $dbh->prepare("DELETE FROM messages WHERE msg_id = :id");
+    $_query= $dbh->prepare("update messages set type='d' WHERE msg_id = :id");
     $_query->execute(array(':id' => $_POST[msg_id]));
     $dbh = null;
 }catch(PDOException $exception){
