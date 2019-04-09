@@ -1,3 +1,10 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<meta http-equiv="Content-type" content="text/html;charset=ENCODING">
+
+
 <?php
   session_start();
   $id = session_id();
@@ -7,6 +14,13 @@
   $count_single = 0;
   $login = false;
   $login_fail=false;
+
+
+  require_once '../../../home/benny/Documents/htmlpurifier-4.10.0/library/HTMLPurifier.auto.php';
+  $config = HTMLPurifier_Config::createDefault();
+  $purifier = new HTMLPurifier($config);
+  //XSS defense 
+
   include("getClient.php");
   try {
     $dbh = new PDO('mysql:host=localhost;dbname=network_security_db', $user, $pass);
@@ -43,7 +57,7 @@
     // setcookie('session_id', $id, time() + 6*60*60);
   }
   
-  
+
 
 ?>
 
@@ -99,33 +113,41 @@
 
     <?php    
       foreach($dbh->query('SELECT * from messages') as $row) {
-        echo "<br>
-              <div class=\"media border p-3\">";
-        if($row['type']=='a'){
-          echo "<img src=\"/img/woman.png\" alt=$row[name] class=\"align-self-start mr-3 mt-3 rounded-circle\" style=\"width:60px;\">";
-        }else{
-        echo "<img src=\"/img/head.png\" alt=$row[name] class=\"align-self-start mr-3 mt-3 rounded-circle\" style=\"width:60px;\">";
-        }echo "<div class=\"media-body\">
+        if($row[type]!='d'){
+          echo "<br>
+                <div class=\"media border p-3\">";
+          if($row['type']=='a'){
+            echo "<img src=\"/img/woman.png\" alt=admin class=\"align-self-start mr-3 mt-3 rounded-circle\" style=\"width:60px;\">";
+          }else{
+          echo "<img src=\"/img/head.png\" alt=slave class=\"align-self-start mr-3 mt-3 rounded-circle\" style=\"width:60px;\">";
+          }echo "<div class=\"media-body\">
+                  <div class=\"row\">
+                    <div class=\"col-sm-6\"><h4>";
+          echo $purifier->purify($row[name]);
+          // echo $row[name];
+          echo "</h4></div><div class=\"col-sm-6 text-right\"><i>$row[time_stamp]</i></div>
+                  </div>
                 <div class=\"row\">
-                  <div class=\"col-sm-6\"><h4>$row[name]</h4></div><div class=\"col-sm-6 text-right\"><i>$row[time_stamp]</i></div>
+                  <div class=\"col-sm-10\">
+                    <p>";
+          echo $purifier->purify($row[content]);
+          // echo $row[content];
+          echo "</p>
+                  </div>";
+          if($id==$row[id] || $login==true)
+          {
+          echo "
+                <form action=\"msg-del.php\" method=\"post\">
+                  <div class=\"col-sm-2 text-right\">
+                    <input type=\"hidden\" name=\"msg_id\" value=\"$row[msg_id]\">
+                    <input type=\"submit\" name=\"submit\" class=\"btn btn-danger\" value=\"Delete\">
+                  </div>
+                </form>";
+          }
+          echo "</div>
                 </div>
-              <div class=\"row\">
-                <div class=\"col-sm-10\">
-                  <p>$row[content]</p>
                 </div>";
-        if($id==$row[id] || $login==true)
-        {
-        echo "
-              <form action=\"msg-del.php\" method=\"post\">
-                <div class=\"col-sm-2 text-right\">
-                  <input type=\"hidden\" name=\"msg_id\" value=\"$row[msg_id]\">
-                  <input type=\"submit\" name=\"submit\" class=\"btn btn-danger\" value=\"Delete\">
-                </div>
-              </form>";
         }
-        echo "</div>
-              </div>
-              </div>";
   }
   ?>
         <br>
