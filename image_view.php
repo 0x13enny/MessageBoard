@@ -1,7 +1,5 @@
 <?php
-require("index.php");
 
-$url='/index.php';
 try {
     $dbh = new PDO('mysql:host=localhost;dbname=network_security_db', $user, $pass);
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -10,22 +8,18 @@ try {
     die();
   }
 // $date=date("Y-m-d H:i:s");
-if(!$login && $_POST[type]=='a'){
-    
-}else{
-try{
-    $_query= $dbh->prepare("INSERT INTO messages (name, content, id, type) VALUES (?,?,?,?)");
-    $_query->execute([$_POST[usr],nl2br($_POST[msg]), $id, $_POST[type]]);
-    
+try{if(isset($_GET['image_id'])){
+    $_query= $dbh->prepare("SELECT filetype, image FROM output_images WHERE PicNum = ?");
+    $_query->execute([$_GET['image_id']]);
+    foreach($_query->fetchAll() as $row)
+    {
+        header("Content-type: " . $row["imageType"]);
+        echo $row["imageData"];        
+    }}
     $dbh = null;
 }catch(PDOException $exception){
     echo "exception: ".$exception->getMessage();
     // return $exception->getMessage(); 
 }
-}
+
 ?>
-<html>
-<head>   
-<meta http-equiv="refresh" content="0;url=<?php echo $url; ?>">   
-</head>
-</html>

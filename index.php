@@ -1,10 +1,7 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <meta http-equiv="Content-type" content="text/html;charset=ENCODING">
-
-
 <?php
   session_start();
   $id = session_id();
@@ -63,6 +60,7 @@
 
 <html>
 <head>
+  <title>Benny</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -99,6 +97,22 @@
     <div class="col-sm-4 text-center">
       <br>
       <img src="/img/profile.jpg" class="rounded-circle border border-info" height="250"/>
+      <!-- <img src="imageView.php?image_id=<?php echo $row["imageId"]; ?>"/> -->
+      <?php
+      if($login==true){  
+        echo "
+        <form action=\"img_upload.php\" method=\"post\" class=\"form-horizontal\" enctype=\"multipart/form-data\">
+          <div class=\"form-group \">
+                <div class=\"custom-file col-sm-4\">
+                  <input type=\"file\" class=\"custom-file-input\" name=\"profile\" id=\"validatedCustomFile\" required>
+                  <label class=\"custom-file-label text-left\" for=\"validatedCustomFile\">Choose file...</label>
+                </div>
+                <input type=\"submit\" class=\"btn btn-secondary\" value=\"Update Profile\" name=\"submit\">
+              
+          </div>
+        </form>
+        ";}
+    ?>
       <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-8 text-center">
@@ -109,44 +123,54 @@
       <div class="col-sm-2"></div>
     </div>
     </div>
-    <div class="col-sm-5">
+    <div class="col-sm-6">
 
     <?php    
       foreach($dbh->query('SELECT * from messages') as $row) {
         if($row[type]!='d'){
           echo "<br>
-                <div class=\"media border p-3\">";
+                <div class=\"text-right\"><i>$row[time_stamp]</i></div>
+                <div class=\"media border p-3\"><div class=\"media-top\"><a>";
           if($row['type']=='a'){
-            echo "<img src=\"/img/woman.png\" alt=admin class=\"align-self-start mr-3 mt-3 rounded-circle\" style=\"width:60px;\">";
+            echo "
+                  <img src=\"/img/woman.png\" alt=admin class=\"align-self-start mr-3 mt-3 rounded-circle\" style=\"width:60px;\">
+                  ";
           }else{
-          echo "<img src=\"/img/head.png\" alt=slave class=\"align-self-start mr-3 mt-3 rounded-circle\" style=\"width:60px;\">";
-          }echo "<div class=\"media-body\">
-                  <div class=\"row\">
-                    <div class=\"col-sm-6\"><h4>";
+          echo "
+                  <img src=\"/img/head.png\" alt=slave class=\"align-self-start mr-3 mt-3 rounded-circle\" style=\"width:60px;\">
+                  ";
+          }echo "
+                  </a>
+                  </div>
+                  <div class=\"media-body\">
+                    <h4 class=\"media-heading\" >
+                    ";
           echo $purifier->purify($row[name]);
           // echo $row[name];
-          echo "</h4></div><div class=\"col-sm-6 text-right\"><i>$row[time_stamp]</i></div>
-                  </div>
-                <div class=\"row\">
+          echo "
+                  </h4><div class=\"row\">
                   <div class=\"col-sm-10\">
-                    <p>";
+                  <p style=\"word-break:break-all; word-wrap:break-all;\">
+          ";
           echo $purifier->purify($row[content]);
           // echo $row[content];
-          echo "</p>
-                  </div>";
+          echo "
+          </p></div>";
           if($id==$row[id] || $login==true)
           {
-          echo "
+            echo "
+            <div class=\"col-sm-2 text-center\">
                 <form action=\"msg-del.php\" method=\"post\">
-                  <div class=\"col-sm-2 text-right\">
-                    <input type=\"hidden\" name=\"msg_id\" value=\"$row[msg_id]\">
-                    <input type=\"submit\" name=\"submit\" class=\"btn btn-danger\" value=\"Delete\">
-                  </div>
-                </form>";
+                  <input type=\"hidden\" name=\"msg_id\" value=\"$row[msg_id]\">
+                  <input type=\"submit\" name=\"submit\" class=\"btn btn-danger\" value=\"Delete\">
+                </form>     
+            </div>
+                  ";
           }
           echo "</div>
-                </div>
-                </div>";
+          </div>
+          </div>
+          ";
         }
   }
   ?>
@@ -159,6 +183,7 @@
       <form action="msg-add.php" method="post">
         <div class="form-group">
           <?php
+          //bug here id identify
           if($login){
             echo "<label for=\"usr\">Name:</label>
                   <h4>Admin</h4>
@@ -173,13 +198,13 @@
         </div>
         <div class="form-group">
           <label for="msg">Comment:</label>
-          <textarea name="msg" class="form-control" required></textarea>
+          <textarea name="msg" rows="5" class="form-control" required></textarea>
           <br>
           <input type="submit" name="submit" value="Submit" class="btn btn-primary pull-right">
         </div>
       </form>
     </div>
-    <div class="col-sm-3 text-left">
+    <div class="col-sm-2 text-left">
       <br>
       <?php
       $res = $dbh->query('SELECT COUNT(*) FROM connections');
@@ -194,6 +219,7 @@
       ?>
     </div>
   </div>
+
 
   <div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
