@@ -13,7 +13,7 @@
   $login_fail=false;
 
 
-  require_once '../../../home/benny/Documents/htmlpurifier-4.10.0/library/HTMLPurifier.auto.php';
+  require_once 'vendor/autoload.php';	  
   $config = HTMLPurifier_Config::createDefault();
   $purifier = new HTMLPurifier($config);
   //XSS defense 

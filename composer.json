@@ -1,0 +1,13 @@
+{
+    "name": "benny/ns_message-board",
+    "description": "message board for cyber security homework",
+    "require": {
+        "ezyang/htmlpurifier": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "BennyTW",
+            "email": "b04502051@g.ntu.edu.tw"
+        }
+    ]
+}
